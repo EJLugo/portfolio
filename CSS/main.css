@@ -1,0 +1,51 @@
+/* HOME PAGE */
+*{
+  margin: 0 auto;
+}
+
+nav{
+  background-color: lightpink;
+  align-items: left;
+}
+
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#hello{
+  height: 600px;
+  background-color: lightblue;
+  width: 100vw;
+
+}
+#one{
+  background: url(../Images/pinkcity.jpeg) fixed;
+  background-size: cover;
+  height: 800px;
+  width: 100vw;
+}
+#oneinner{
+  text-align: center;
+  font-size: 30pt;
+  color: #FFFFFF;
+  padding-top: 150px;
+}
+#contact{
+  background-color: lightblue;
+  height: 600px;
+}
+
+#portfolio-highlights {
+	display: flex;
+}
+
+.highlights {
+	background-color: #F397D6;
+	z-index: 2;
+	flex: 1;
+	justify-content: space-around;
+	height: 400px;
+	width: 250px;
+}

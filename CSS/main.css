@@ -14,6 +14,10 @@ a{
   text-align: center;
 }
 
+.fab {
+  color: purple;
+}
+
 #hello{
   height: 600px;
   background-color: lightblue;
@@ -48,4 +52,5 @@ a{
 	justify-content: space-around;
 	height: 400px;
 	width: 250px;
+  padding: 10px
 }

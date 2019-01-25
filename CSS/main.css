@@ -1,42 +1,51 @@
 /* HOME PAGE */
-*{
+* {
   margin: 0 auto;
 }
 
-nav{
+nav {
   background-color: lightpink;
-  align-items: right;
+  display: flex;
 }
 
-a{
+a {
   text-decoration: none;
+  font-size: 19pt;
   color: #FFFFFF;
-  text-align: right;
+  align-items: flex-end;
+}
+
+a:hover {
+  text-decoration: line-through;
+  color: lightblue;
 }
 
 .fab {
   color: purple;
 }
 
-#hello{
+#hello {
   height: 600px;
   background-color: lightblue;
   width: 100vw;
 
 }
-#one{
+
+#one {
   background: url(../Images/pinkcity.jpeg) fixed;
   background-size: cover;
   height: 800px;
   width: 100vw;
 }
-#oneinner{
+
+#oneinner {
   text-align: center;
   font-size: 30pt;
   color: #FFFFFF;
   padding-top: 150px;
 }
-#contact{
+
+#contact {
   background-color: lightblue;
   height: 600px;
 }
@@ -55,4 +64,33 @@ a{
   padding: 10px
 }
 
-/* ABOUT PAGE */
+/* PROJECT PAGE */
+button {
+  height: 40px;
+  width: 240px;
+  background-color: lightgrey;
+  border: solid pink;
+  margin: 32px;
+}
+
+.projects-container {
+  display: flex;
+  padding: 50px;
+}
+
+.projects {
+  flex: 1;
+  padding: 50px;
+}
+
+.project-buttons {
+  font-family: Arial;
+  color: blue;
+  font-size: 25px;
+}
+
+.project-block {
+  flex: 2;
+  border: solid pink;
+  padding: 35px;
+}

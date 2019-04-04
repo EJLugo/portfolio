@@ -27,28 +27,33 @@ a:hover {
   height: 600px;
   background-color: lightblue;
   width: 100vw;
+  display: flex;
 }
 
 .hello-title {
   color: #F397D6;
-  font-family: cursive;
+  flex: 1;
+  font-family: 'Poiret One', cursive;
   font-size: 38pt;
+  align-items: center;
+  text-transform: uppercase;
 }
 
 /* typewriter effect? */
 .hello-summary {
   color: #F397D6;
   font-size: 25pt;
+  align-items: center;
 }
 
 #one {
   background: url(../Images/pinkcity.jpeg) fixed;
   background-size: cover;
-  height: 800px;
+  height: 300px;
   width: 100vw;
 }
 
-#oneinner {
+#one-inner {
   text-align: center;
   font-size: 30pt;
   color: #FFFFFF;
@@ -98,7 +103,7 @@ button {
 }
 
 .project-buttons {
-  font-family: Arial;
+  font-family: "Poiret One", cursive;
   color: #726774;
   font-size: 25px;
 }

@@ -20,7 +20,7 @@ a:hover {
 }
 
 .fab {
-  color: purple;
+  color: #000;
 }
 
 #hello {
@@ -30,18 +30,20 @@ a:hover {
   display: flex;
 }
 
-.hello-title {
-  color: #F397D6;
+.hello-name {
+  color: #000;
   flex: 1;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One';
   font-size: 38pt;
+  font-weight: bolder;
   align-items: center;
   text-transform: uppercase;
 }
 
 /* typewriter effect? */
-.hello-summary {
-  color: #F397D6;
+.hello-title {
+  color: #000;
+  font-family: 'Poiret One';
   font-size: 25pt;
   align-items: center;
 }

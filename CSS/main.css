@@ -23,20 +23,18 @@ a:hover {
   color: #000;
 }
 
-#hello {
+#hello-container {
   height: 600px;
   background-color: lightblue;
   width: 100vw;
-  display: flex;
+  display: grid;
 }
 
 .hello-name {
   color: #000;
-  flex: 1;
+  justify-content: center;
   font-family: 'Poiret One';
   font-size: 38pt;
-  font-weight: bolder;
-  align-items: center;
   text-transform: uppercase;
 }
 
@@ -67,51 +65,27 @@ a:hover {
   height: 600px;
 }
 
-#portfolio-highlights {
-	display: flex;
+/* PROJECTS PAGE */
+.main-projects-container {
+  border: solid #FFFFFF 34px;
 }
 
-.highlights {
-	background-color: #F397D6;
-	z-index: 2;
-	flex: 1;
-	justify-content: space-around;
-	height: 400px;
-	width: 250px;
-  padding: 10px
+.grid {
+  height: 300px;
+  border: solid red;
 }
 
-/* PROJECT PAGE */
-.project-header {
-  align-items: center;
+.chronicle-grid {
+  border: solid blue;
 }
 
-button {
-  height: 40px;
-  width: 240px;
-  background-color: #C2BCCC;
-  border: solid #726774;
-  margin: 32px;
+.fa-paw {
+   height: 100px;
+   width: 100px
+   border: solid red;
 }
 
-.projects-container {
-  display: flex;
-  padding: 50px;
-}
-
-.projects {
-  flex: 1;
-  padding: 50px;
-}
-
-.project-buttons {
-  font-family: "Poiret One", cursive;
-  color: #726774;
-  font-size: 25px;
-}
-
-.project-block {
-  flex: 2;
-  border: solid pink;
-  padding: 35px;
+p {
+  align-content: center;
+  font-family: 'Poiret One';
 }
